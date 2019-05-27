@@ -1,3 +1,4 @@
+
 import login.LoginHelper
 
 /**
@@ -7,5 +8,9 @@ import login.LoginHelper
  */
 fun main() {
 
-    LoginHelper.login()
+    val generatedTraceId = LoginHelper.login()
+
+//    println("${generatedTraceId}")
+
+
 }
